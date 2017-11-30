@@ -2,11 +2,12 @@
 // Created by alumno on 06/09/17.
 //
 
-#include <iostream>
+
 
 #ifndef INC_02_LISTAS_NODO_H
 #define INC_02_LISTAS_NODO_H
 
+#include <iostream>
 template<class T>
 class Nodo{
 private:

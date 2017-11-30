@@ -23,6 +23,8 @@ public:
     T pop();
 
     bool esVacia();
+
+    T peek();
 };
 
 
@@ -89,6 +91,13 @@ T Pila<T>::pop() {
 template<class T>
 bool Pila<T>::esVacia() {
     return inicio == NULL;
+}
+
+template<class T>
+T Pila<T>::peek() {
+    if(esVacia())
+        throw 1;
+    return inicio->getDato();
 }
 
 #endif //LISTA_H

@@ -7,6 +7,10 @@ int main() {
     Pila<int> a, b;
 
     a.push(1);
+    a.push(2);
+    a.push(3);
+    b.push(1);
+    b.push(2);
     b.push(3);
 
 
@@ -19,7 +23,7 @@ int main() {
 
     }
 
-    if(s = 1)
+    if(s == 1)
         std::cout << "Las pilas son iguales" << std::endl;
 
     else
